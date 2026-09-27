@@ -1,0 +1,9 @@
+apiVersion: infra.trap.jp/v1alpha1
+kind: TrapApp
+metadata:
+  labels:
+    app.kubernetes.io/name: trap-platform
+    app.kubernetes.io/managed-by: kustomize
+  name: trapapp-sample
+spec:
+  # TODO(user): Add fields here
